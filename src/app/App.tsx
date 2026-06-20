@@ -309,6 +309,8 @@ function StatusBadge({ status }: { status: string }) {
   const labels: Record<string, string> = {
     PENDENTE: "Pendente", CONFIRMADO: "Confirmado", EM_PREPARACAO: "Em Preparação",
     PRONTO: "Pronto", EM_ENTREGA: "Em Entrega", ENTREGUE: "Entregue", CANCELADO: "Cancelado",
+    ativo: "Activo", inativo: "Inativo", vip: "VIP", recebido: "Recebido", preparando: "A preparar",
+    entregue: "Entregue", cancelado: "Cancelado",
   };
   return (
     <span className={`px-2.5 py-1 rounded-full text-xs font-semibold ${map[status] ?? "bg-white/10 text-white/40"}`}>
