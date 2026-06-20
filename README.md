@@ -1,5 +1,5 @@
 
-  # Untitled
+  # Kikola Burguer
 
   This is a code bundle for Untitled. The original project is available at https://www.figma.com/design/T0FDyDt6GWSJuPGulUseZO/Untitled.
 
